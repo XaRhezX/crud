@@ -31,6 +31,8 @@ cp .env.example .env
 php artisan key:generate
 # laravel migrate & seed some data
 php artisan migrate:fresh --seed
+# Storage Link
+php artisan storage:link
 ```
 
 ### Default User
