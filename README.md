@@ -45,7 +45,10 @@ Pass  : dev@root.test
 ### Laravel Sail (Optional)
 
 ```shell
-./vendor/bin/sail up
+./sail up
+./sail artisan key:generate
+./sail artisan migrate:fresh --seed
+./sail artisan storage:link
 ```
 
 ## License
